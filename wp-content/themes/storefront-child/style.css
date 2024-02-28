@@ -1,0 +1,114 @@
+/*
+Them Name: My Storefront Child Theme
+Theme URI: https://en-ca.wordpress.org/themes/storefront/
+Description: Storefront Child Theme
+Author: Tanya Ntoto Masiala
+Author URI: https://en-ca.wordpress.org/themes/author/automattic/
+Template: storefront
+Version: 3.0.0
+License: GNU General Public Public License v2or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: responsive-layout, eCommerce, Custom Background, Custom Colours, Custom Header, Custom Menu
+*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&family=Tilt+Neon&family=Varela+Round&display=swap');
+
+#page, #colophon, #masthead{
+    background-color: #012b50;
+}
+
+.site-title a{
+    color: #9517b5;
+    font-size: 2em;
+    font-style: bold;
+    font-family: 'Oswald', sans-serif;
+}
+
+.site-title a:hover{
+    background: #EEAECA;
+    background: radial-gradient(circle farthest-corner at center center, #EEAECA 0%, #94BBE9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main-navigation ul li a{
+    color: white;
+    font-style: italic;
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+.main-navigation ul li a:hover{
+    background: #3F5EFB;
+    background: linear-gradient(to right, #3F5EFB 0%, #FC466B 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.current-menu-item a{
+    background: #e1affd;
+    background: linear-gradient(to top right, #FF76F2 0%, #FFBFBF 50%, #99FFFB 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+ul.menu li a{
+    color: white;
+}
+
+h1.entry-title{
+    color: white;
+    font-size: 3em;
+    font-style: italic;
+    font-family: 'Oswald', sans-serif;}
+
+p{
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Tilt Neon', cursive;
+}
+
+fieldset legend, .woocommerce-password-hint , .show-password-input{
+    color: black;
+}
+
+
+fieldset p{
+    color: black;
+}
+
+
+.woocommerce-mini-cart__total{
+    color: black;
+}
+
+.woocommerce-checkout-review-order{
+    color: black;
+}
+
+#mailpoet_woocommerce_checkout_optin_field{
+    color: black;
+}
+
+.woocommerce-privacy-policy-text p{
+    color: black;
+}
+
+.shop_table{
+    color: #9517b5;
+}
+
+.shop_table th{
+    color: #012b50;
+}
+
+.widget_shopping_cart_content p{
+    color: black;
+}
+
+.storefront-sticky-add-to-cart__content-product-info , .storefront-sticky-add-to-cart__content-price{
+    background: #121FCF;
+    background: linear-gradient(to right, #121FCF 0%, #AA55CF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
